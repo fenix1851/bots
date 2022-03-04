@@ -1,0 +1,20 @@
+{
+  "name": "translate-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-dev": "nodemon --ignore data/ src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roman Akhromieiev <qpbd@ukr.net>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.19.2",
+    "dotenv": "8.2.0",
+    "telegraf": "3.37.0",
+    "telegraf-session-local": "1.0.2"
+  }
+}
