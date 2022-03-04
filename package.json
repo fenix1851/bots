@@ -1,0 +1,21 @@
+{
+  "name": "translate-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "exports": "./lib/scenes/stage",
+  "devDependencies": {
+    "telegraf": "^4.7.0"
+  }
+}
